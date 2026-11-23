@@ -6,6 +6,11 @@
 public class Song
 {
     /// <summary>
+    /// The primary key
+    /// </summary>
+    public int Id { get; set; }
+
+    /// <summary>
     /// The genre of the item.
     /// </summary>
     public string? Genre { get; set; }
