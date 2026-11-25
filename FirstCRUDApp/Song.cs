@@ -6,7 +6,7 @@
 public class Song
 {
     /// <summary>
-    /// The primary key
+    /// The primary key (PK) for the song
     /// </summary>
     public int Id { get; set; }
 
